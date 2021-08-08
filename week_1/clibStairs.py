@@ -46,6 +46,7 @@ class ClimbStair(object):
     def solution_4(self, n):
 
         """
+        核心思想: 找到重复子问题, 把复杂问题简单化
         f(n)只依赖于f(n-1)和f(n-2)，只需要两项就足够了, 所以可以省略 dp数组，优化时间负载度为 O(1)
         """
 

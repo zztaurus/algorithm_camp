@@ -1,3 +1,10 @@
+
+"""
+核心思路: 一维度数组的坐标变换, i，j 的变换
+
+"""
+
+
 class Solution(object):
 
     def moveZeroes(self, nums):
