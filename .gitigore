@@ -1,0 +1,5 @@
+################ !!!! Git Ignore Config File !!! ################
+# NOTE: This file must be put under root dir of git project!
+#################################################################
+
+.idea/*
