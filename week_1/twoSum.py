@@ -14,13 +14,15 @@
 '''
 
 
-class Solution(object):
+class TwoSum(object):
 
-    def twoSum(self, nums, target):
+    def solution_1(self, nums, target):
         """
         :type nums: List[int]
         :type target: int
         :rtype: List[int]
+
+        利用Hash表查找O(1)的特性简化了问题。
         """
 
         hm = dict()
@@ -37,8 +39,8 @@ class Solution(object):
 
 if __name__ == '__main__':
     nums = [1, 3, 4, 2]
-    s = Solution()
-    res = s.twoSum(nums, 6)
+    s = TwoSum()
+    res = s.solution_1(nums, 6)
     print(res)
 
 

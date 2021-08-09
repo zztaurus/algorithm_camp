@@ -56,7 +56,7 @@ class MaxArea(object):
                 min_height = height[j]
                 j -= 1
 
-            max_area = max(max_area, (j - i + 1) * minHeight) # 因为 i 或者 j 已经移动，所以宽度需要 (j - i) + 1
+            max_area = max(max_area, (j - i + 1) * min_height)  # 因为 i 或者 j 已经移动，所以宽度需要 (j - i) + 1
 
         return max_area
 

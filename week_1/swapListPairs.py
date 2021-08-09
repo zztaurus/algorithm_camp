@@ -1,5 +1,11 @@
 # Definition for singly-linked list.
 
+"""
+
+两两交换链表节点
+
+"""
+
 class ListNode(object):
 
     def __init__(self, val=0, next=None):
