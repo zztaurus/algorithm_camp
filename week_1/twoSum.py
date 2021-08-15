@@ -22,19 +22,36 @@ class TwoSum(object):
         :type target: int
         :rtype: List[int]
 
-        利用Hash表查找O(1)的特性简化了问题。
+        两遍哈希法： 利用Hash表查找O(1)的特性简化了问题。
         """
 
         hm = dict()
         for index, value in enumerate(nums):
-            print(index)
             hm.update({value: index})
 
         for index, value in enumerate(nums):
-            print(index, value)
             j = hm.get(target-value)
             if j is not None and j != index:
                 return [index, j]
+
+    def solution_2(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+
+        一遍哈希法： 从 a 查找到 target-a, 也可以从 target-a 查找到 a, 所以优化两边哈希法为一遍哈希法。
+        """
+
+        hm = dict()
+        for index, value in enumerate(nums):
+            a_t = target - value
+            if a_t in hm:
+                return [index, hm.get(a_t)]
+            else:
+                hm.update({value: index})
+
+
 
 
 if __name__ == '__main__':
