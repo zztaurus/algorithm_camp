@@ -1,4 +1,13 @@
 
+"""
+
+https://leetcode-cn.com/problems/chou-shu-lcof/
+
+剑指 Offer 49. 丑数
+
+"""
+
+
 class Solution(object):
 
     def nthUglyNumber(self, n):

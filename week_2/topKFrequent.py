@@ -20,9 +20,7 @@ class Solution(object):
         import collections
         import heapq
         count = collections.Counter(nums)
-        print(count)
         heap = [(val, key) for key, val in count.items()]
-        print(heap)
         return [item[1] for item in heapq.nlargest(k, heap)]
 
 
