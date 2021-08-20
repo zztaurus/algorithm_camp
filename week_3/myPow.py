@@ -15,6 +15,11 @@ class Solution(object):
 
         x 为负数: pow(x, n) = 1/ pow(x, -n)
 
+        时间复杂度: O(logn)
+
+        空间复杂度: O(1)
+
+
         """
 
         def sub_pow(N):
