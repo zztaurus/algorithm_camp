@@ -1,20 +1,29 @@
+# -*- coding: utf-8 -*-
+
+
 """
 
-https://leetcode-cn.com/problems/climbing-stairs/
+https://ltcode-cn.com/problems/climbing-stairs/
 
 爬楼梯
 
 
 
+
 """
+
 
 class Solution(object):
     dp = {1: 1, 2: 2}
 
     def climbStairs(self, n):
         """
-        :type n: int
-        :rtype: int
+
+        时间复杂度: O(n)
+
+        空间复杂度: O(1)
+
+
         """
 
         pre_of_pre, pre, cur = 1, 2, 1

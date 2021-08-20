@@ -40,7 +40,7 @@ class TwoSum(object):
         :type target: int
         :rtype: List[int]
 
-        一遍哈希法： 从 a 查找到 target-a, 也可以从 target-a 查找到 a, 所以优化两边哈希法为一遍哈希法。
+        一遍哈希法： 从 a 查找到 target-a, 也可以从 target-a 查找到 a, 所以优化两遍哈希法为一遍哈希法。
         """
 
         hm = dict()
@@ -50,8 +50,6 @@ class TwoSum(object):
                 return [index, hm.get(a_t)]
             else:
                 hm.update({value: index})
-
-
 
 
 if __name__ == '__main__':
