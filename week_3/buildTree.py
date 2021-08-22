@@ -22,6 +22,7 @@ https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder
 
     最后递归地遍历右子树。
 
+重复子问题: 对与每颗树都可以通过前序遍历和中学遍历找到根节点。
 
 """
 # Definition for a binary tree node.

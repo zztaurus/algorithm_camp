@@ -5,6 +5,8 @@ https://leetcode-cn.com/problems/combinations/
 
 组合
 
+构建递归树，每个节点都有两种装填，选中和不选中。然后在剩余数字里选择下一个节点的数字。
+
 """
 
 import copy
