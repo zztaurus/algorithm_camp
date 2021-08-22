@@ -66,7 +66,7 @@ class Solution(object):
 
         pivot = preorder[pre_left]
         pivot_index = in_left
-        while inorder[pivot_index] != pivot:
+        while inorder[pivot_index] != pivot: # 找到根节点在中序遍历中的位置
             pivot_index += 1
 
         root.left = self.__build_tree(preorder, pre_left + 1, pre_left + pivot_index - in_left,  # pivot_index - in_left 左子树中序遍历长度
