@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2670b1b-543d-4076-8923-bde285909a50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tree/levelOrder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week_4/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week_summary.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tree/levelOrder.py" beforeDir="false" afterPath="$PROJECT_DIR$/tree/levelOrder.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,51 +12,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week_2/nthUglyNumber.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daily_trick/getKthMagicNumber.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week_summary.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="610">
-                <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week_3/permute.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="73" column="18" lean-forward="true" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tree/levelOrder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="603">
+              <caret line="68" column="18" lean-forward="true" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -149,7 +108,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,10 +120,16 @@
               <item name="algorithm_Training" type="462c0819:PsiDirectoryNode" />
               <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algorithm_Training" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm_Training" type="462c0819:PsiDirectoryNode" />
+              <item name="week_4" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,10 +286,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="-296" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18955651" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -402,13 +366,7 @@
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/abc.pyi">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/typing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="1220" column="38" selection-start-line="1220" selection-start-column="38" selection-end-line="1220" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/typing.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -536,13 +494,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="237" column="4" selection-start-line="237" selection-start-column="4" selection-end-line="237" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Library/Caches/PyCharmCE2019.1/python_stubs/-1199943126/builtins.py" />
     <entry file="file://$PROJECT_DIR$/week_3/subsets.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
@@ -606,83 +558,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/heapq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="126" column="66" selection-start-line="126" selection-start-column="61" selection-end-line="126" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#1269#1" />
-            <element signature="e#1365#6089#0" />
-            <element signature="e#6383#6671#0" />
-            <element signature="e#6555#6652#0" />
-            <element signature="e#6706#7285#0" />
-            <element signature="e#6706#7146#1" />
-            <element signature="e#7320#7486#0" />
-            <element signature="e#7416#7470#0" />
-            <element signature="e#7508#8014#0" />
-            <element signature="e#7590#7663#0" />
-            <element signature="e#8044#8298#0" />
-            <element signature="e#8178#8279#0" />
-            <element signature="e#8338#8539#0" />
-            <element signature="e#8566#8708#0" />
-            <element signature="e#8710#8786#0" />
-            <element signature="e#8919#9276#0" />
-            <element signature="e#8943#9015#0" />
-            <element signature="e#9070#9252#0" />
-            <element signature="e#9171#9238#0" />
-            <element signature="e#9278#9354#0" />
-            <element signature="e#11371#12075#0" />
-            <element signature="e#11580#11879#0" />
-            <element signature="e#11884#11952#0" />
-            <element signature="e#12121#12513#0" />
-            <element signature="e#12180#12252#0" />
-            <element signature="e#12307#12489#0" />
-            <element signature="e#12408#12475#0" />
-            <element signature="e#12547#13285#0" />
-            <element signature="e#12788#13085#0" />
-            <element signature="e#13090#13158#0" />
-            <element signature="e#13339#15816#0" />
-            <element signature="e#13339#13964#1" />
-            <element signature="e#14026#14144#0" />
-            <element signature="e#14163#14265#0" />
-            <element signature="e#14295#15125#0" />
-            <element signature="e#14357#14511#0" />
-            <element signature="e#14378#14456#0" />
-            <element signature="e#14570#14937#0" />
-            <element signature="e#14591#14835#0" />
-            <element signature="e#14623#14835#0" />
-            <element signature="e#14964#15110#0" />
-            <element signature="e#15189#15365#0" />
-            <element signature="e#15206#15318#0" />
-            <element signature="e#15412#15708#0" />
-            <element signature="e#15429#15654#0" />
-            <element signature="e#15457#15654#0" />
-            <element signature="e#15727#15816#0" />
-            <element signature="e#15819#15867#0" />
-            <element signature="e#19001#20824#0" />
-            <element signature="e#19001#19105#1" />
-            <element signature="e#19171#19413#0" />
-            <element signature="e#19572#19634#0" />
-            <element signature="e#19711#20310#0" />
-            <element signature="e#19739#19785#0" />
-            <element signature="e#20105#20238#0" />
-            <element signature="e#20136#20238#0" />
-            <element signature="e#20607#20757#0" />
-            <element signature="e#20653#20757#0" />
-            <element signature="e#20867#22626#0" />
-            <element signature="e#20867#20984#1" />
-            <element signature="e#21050#21292#0" />
-            <element signature="e#21451#21527#0" />
-            <element signature="e#21604#22101#0" />
-            <element signature="e#21884#22017#0" />
-            <element signature="e#21915#22017#0" />
-            <element signature="e#22397#22547#0" />
-            <element signature="e#22443#22547#0" />
-            <element signature="e#22972#23015#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/heapq.py" />
     <entry file="file://$PROJECT_DIR$/week_3/combine.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -735,16 +611,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week4_summary.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week4_summary">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/week4_summary.md" />
+    <entry file="file://$PROJECT_DIR$/week4_summary" />
     <entry file="file://$PROJECT_DIR$/daily_trick/getKthMagicNumber.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -771,8 +639,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tree/levelOrder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="603">
+          <caret line="68" column="18" lean-forward="true" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
         </state>
       </provider>
     </entry>

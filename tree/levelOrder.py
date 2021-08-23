@@ -17,6 +17,8 @@ https://leetcode-cn.com/problems/binary-tree-level-order-traversal/
 #         self.right = right
 
 
+import copy
+
 class Solution(object):
 
     def levelOrder(self, root):
@@ -45,35 +47,43 @@ class Solution(object):
             out.append(current_level_val)
             queue = next_level_node
 
-        return out
+        return [item for item in out[::-1]]
 
     def levelOrder_2(self, root):
 
         """
 
-        DFS
+        深度优先：
 
+        时间复杂度：O(N)
+        空间复杂度：O(N)
 
         """
 
+        if not root: return []
+        level_out = {}
+        self.dfs(root, 0, level_out)
+        res = [val for val in level_out.values()[::-1]]
+        return res
+
+    def dfs(self, root, index, level_out):
+
         if not root:
-            return []
-        queue = [root]
-        out = []
+            return
 
-        while len(queue) > 0:
+        if index not in level_out:
+            level_out.update({index: []})
 
-            next_level_node = []
-            current_level_val = []
+        level_out[index].append(root.val)
 
-            for node in queue:
-                current_level_val.append(node.val)
-                if node.left:
-                    next_level_node.append(node.left)
-                if node.right:
-                    next_level_node.append(node.right)
-            out.append(current_level_val)
-            queue = next_level_node
+        if root.left:
+            self.dfs(root.left, index + 1, level_out)
+        if root.right:
+            self.dfs(root.right, index + 1, level_out)
 
-        return out
+
+
+
+
+
 
