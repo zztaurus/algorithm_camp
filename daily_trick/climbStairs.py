@@ -8,8 +8,6 @@ https://ltcode-cn.com/problems/climbing-stairs/
 爬楼梯
 
 
-
-
 """
 
 
@@ -26,11 +24,9 @@ class Solution(object):
 
         """
 
-        pre_of_pre, pre, cur = 1, 2, 1
-
-        for i in range(3, n):
-            cur = pre + pre_of_pre
-            pre_of_pre = pre
-            pre = cur
-
-        return cur
+        p, q, r = 0, 0, 1
+        for i in range(1, n+1):
+            p = q
+            q = r
+            r = p + q
+        return r
