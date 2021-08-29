@@ -1,8 +1,9 @@
 
 """
 
+https://leetcode-cn.com/problems/jump-game-ii/
 
-
+跳跃游戏 II
 
 """
 
@@ -29,5 +30,5 @@ class Solution(object):
             if maxPos >= i:
                 maxPos = max(maxPos, i + nums[i])
                 if i == end:
-                    end = maxPos # 更新每次跳跃可达的最远边界，当到达最远边界，进入下次跳跃。
+                    end = maxPos  # 更新每次跳跃可达的最远边界，当到达最远边界，进入下次跳跃。
                     step += 1
