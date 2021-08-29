@@ -48,10 +48,40 @@ class Solution(object):
         g.sort()
         s.sort()
         count = 0
-        for i in range(g):
+        for v in g:
+            n = self.binarySearchOne(v, s)
+            print(v, n)
+            if n and len(s):
+                count += 1
+            else:
+                break
+        return count
+
+    def binarySearchOne(self, target, num): # TODO modify 
+
+        left = 0
+        right = len(num) - 1
+
+        while left <= right:
+            mid = left + (right - left) // 2
+
+            if num[mid] <= target:
+                left = mid + 1
+            else:
+                right = mid - 1
+
+        return left
 
 
-    def ()
+if __name__ == '__main__':
+
+    g = [1, 2, 3]
+    s = [1, 2, 2]
+    count = Solution().findContentChildren_2(g, s)
+
+
+
+
 
 
 
