@@ -2,4 +2,4 @@
 # NOTE: This file must be put under root dir of git project!
 #################################################################
 
-.idea/*
+.idea/workspace.xml
