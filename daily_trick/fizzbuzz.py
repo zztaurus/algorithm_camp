@@ -4,6 +4,7 @@
 https://leetcode-cn.com/problems/fizz-buzz/
 
 """
+
 class FizzBuzz(object):
 
     def solution_1(self, n):
