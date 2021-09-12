@@ -21,6 +21,10 @@ class Solution(object):
             dp_i = dp_i-1 + nums[i] if dp_i-1 > 0
             dp_i = nums[i] if dp_i-1 <= 0
 
+            dp[i] = max(num, (dp[i-1] + num))
+
+            最大子序和 = 当前自身元素最大 或者 包含之前后最大
+
         时间复杂度: O(n)
 
         空间复杂度: O(1)
