@@ -51,21 +51,30 @@ class Solution(object):
 
         return res
 
-    def valid(self, s):
+    def generateParenthesis_2(self, n):
 
         """
 
         验证括号是否有效
 
         """
-        bal = 0
-        for c in s:
-            if c == '(':
-                bal += 1
-            else:
-                bal -= 1
-            if bal < 0: return False
-        return bal == 0
+        res = []
+        cur_str = ''
+
+        def dfs(cur_str, left, right):
+
+            if left == 0 and right == 0:
+                res.append(cur_str)
+                return
+            if right < left:
+                return
+            if left > 0:
+                dfs(cur_str + '(', left - 1, right)
+            if right > 0:
+                dfs(cur_str + ')', left, right - 1)
+
+        dfs(cur_str, n, n)
+        return res
 
 
 if __name__ == '__main__':
