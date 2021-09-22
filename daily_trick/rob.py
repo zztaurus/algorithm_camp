@@ -35,13 +35,23 @@ class Solution(object):
 
         """
 
-        N = len(nums)
-        dp = [0] * (N + 1)
-        dp[0] = 0
-        dp[1] = nums[0]
-        for k in range(2, N + 1):
-            dp[k] = max(dp[k - 1], nums[k - 1] + dp[k - 2])
-        return dp[N]
+        if len(nums) == 1:
+            return nums[0]
+        if len(nums) == 2:
+            return max(nums[0], nums[1])
+        if len(nums) == 3:
+            return max(nums[0] + nums[2], nums[1])
+
+        lst = [0] * (len(nums))
+
+        lst[0] = nums[0]
+        lst[1] = max(nums[0], nums[1])
+        lst[2] = max(nums[0] + nums[2], nums[1])
+
+        for i in range(3, len(nums)):
+            lst[i] = max(lst[i - 1], max(lst[i - 2], lst[i - 3]) + nums[i])
+
+        return lst[-1]
 
     def rob2(self, nums):
 
