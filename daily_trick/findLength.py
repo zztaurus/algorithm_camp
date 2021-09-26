@@ -79,12 +79,11 @@ class Solution(object):
 
         空间复杂度: O(1)。
 
-
         """
 
         def maxLength(addA, addB, length):
             ret = k = 0
-            for i in range(length):
+            for i in range(length):  # 对齐后寻找重叠部分的最长重复子数组
                 if nums1[addA + i] == nums2[addB + i]:
                     k += 1
                     ret = max(ret, k)
