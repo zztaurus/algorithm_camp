@@ -19,3 +19,7 @@ class Solution(object):
         newhead = head.next
         head.next = self.swapPairs(head.next.next)
         newhead.next = head
+
+
+if __name__ == '__main__':
+    Solution.swapPairs()
